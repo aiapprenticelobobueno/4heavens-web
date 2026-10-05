@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<!--
+  4Heavens — Aviso de Privacidad
+  ANTES DE PUBLICAR:
+  1. Somételo a revisión de un abogado especialista en LFPDPPP.
+  2. Publica en GitHub Pages y copia la URL a App Store Connect y Play Console.
+  3. Confirma que el registro de eventos de eliminación (sección 7) esté
+     implementado en el código antes de que el aviso esté en vivo.
+-->
+<html lang="es-MX">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Aviso de Privacidad · 4Heavens</title>
+<meta name="description" content="Aviso de privacidad de 4Heavens conforme a la Ley Federal de Protección de Datos Personales en Posesión de los Particulares.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600&family=Spectral:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --ink:#1C1A17;
+    --parchment:#F4EDD8;
+    --indigo:#0A0D16;
+    --gold:#9A7B32;
+    --gold-soft:#C9A961;
+    --taupe:#6E675C;
+    --rule:#D8CDB0;
+  }
+  *{box-sizing:border-box;}
+  html{-webkit-text-size-adjust:100%;}
+  body{
+    margin:0;
+    background:var(--parchment);
+    color:var(--ink);
+    font-family:"Spectral",Georgia,"Times New Roman",serif;
+    font-size:1.0625rem;
+    line-height:1.72;
+  }
+  .sheet{
+    max-width:41rem;
+    margin:0 auto;
+    padding:4rem 1.5rem 6rem;
+  }
+
+  /* Masthead */
+  .masthead{
+    border-bottom:1px solid var(--rule);
+    padding-bottom:2.25rem;
+    margin-bottom:3rem;
+  }
+  .mark{
+    font-family:"Cormorant Garamond",Garamond,serif;
+    font-size:1.5rem;
+    letter-spacing:.02em;
+    color:var(--gold);
+    margin:0 0 1.75rem;
+  }
+  h1{
+    font-family:"Cormorant Garamond",Garamond,serif;
+    font-weight:400;
+    font-size:clamp(2.4rem,7vw,3.4rem);
+    line-height:1.08;
+    margin:0 0 .75rem;
+  }
+  .standfirst{
+    font-size:1.0625rem;
+    color:var(--taupe);
+    margin:0;
+    max-width:32rem;
+  }
+  .issued{
+    margin-top:1.5rem;
+    font-size:.9375rem;
+    color:var(--taupe);
+    font-variant-numeric:oldstyle-nums;
+  }
+
+  /* Sections */
+  section{margin:0 0 2.75rem;}
+  h2{
+    font-family:"Cormorant Garamond",Garamond,serif;
+    font-weight:600;
+    font-size:1.5rem;
+    line-height:1.25;
+    margin:0 0 .6rem;
+  }
+  h2 .num{
+    color:var(--gold);
+    font-weight:400;
+    margin-right:.45rem;
+  }
+  h3{
+    font-size:1rem;
+    font-weight:600;
+    margin:1.6rem 0 .35rem;
+  }
+  p{margin:0 0 1rem;}
+  ul{margin:0 0 1rem;padding-left:1.15rem;}
+  li{margin-bottom:.45rem;}
+  li::marker{color:var(--gold-soft);}
+  a{color:var(--gold);text-underline-offset:.18em;}
+  a:focus-visible,summary:focus-visible{
+    outline:2px solid var(--gold);
+    outline-offset:3px;
+  }
+  strong{font-weight:600;}
+
+  /* Placeholder — impossible to miss */
+  .fill{
+    background:#F6DFA0;
+    border-bottom:2px solid #B8891C;
+    padding:.05em .35em;
+    font-weight:600;
+    font-style:normal;
+  }
+
+  /* Data table */
+  .ledger{
+    width:100%;
+    border-collapse:collapse;
+    margin:.5rem 0 1rem;
+    font-size:.9688rem;
+  }
+  .ledger th,.ledger td{
+    text-align:left;
+    vertical-align:top;
+    padding:.7rem .9rem .7rem 0;
+    border-bottom:1px solid var(--rule);
+  }
+  .ledger th{
+    font-weight:600;
+    width:38%;
+    white-space:nowrap;
+  }
+  .ledger tr:last-child th,.ledger tr:last-child td{border-bottom:none;}
+
+  /* Closing note */
+  .colophon{
+    border-top:1px solid var(--rule);
+    margin-top:3.5rem;
+    padding-top:1.75rem;
+    font-size:.9375rem;
+    color:var(--taupe);
+  }
+
+  @media (max-width:34rem){
+    .sheet{padding:2.75rem 1.25rem 4rem;}
+    .ledger th{width:auto;display:block;white-space:normal;border-bottom:none;padding-bottom:.15rem;}
+    .ledger td{display:block;padding-left:0;padding-top:0;}
+  }
+  @media print{
+    body{background:#fff;font-size:11pt;}
+    .sheet{max-width:none;padding:0;}
+    a{color:inherit;text-decoration:none;}
+  }
+</style>
+</head>
+<body>
+<main class="sheet">
+
+  <header class="masthead">
+    <p class="mark">4Heavens</p>
+    <h1>Aviso de Privacidad</h1>
+    <p class="standfirst">Cómo tratamos tus datos personales en la aplicación 4Heavens, conforme a la Ley Federal de Protección de Datos Personales en Posesión de los Particulares.</p>
+    <p class="issued">Última actualización: 4 de octubre de 2026</p>
+  </header>
+
+  <section>
+    <h2><span class="num">1</span>Quién es responsable de tus datos</h2>
+    <p><strong>Mauricio Orozco Martínez</strong>, persona física con actividad empresarial, es el responsable del tratamiento de los datos personales que se recaban a través de la aplicación móvil 4Heavens.</p>
+    <table class="ledger">
+      <tr><th>Domicilio</th><td>Márquez Sterling 34B, II 306, Colonia Centro, C.P. 06000, Cuauhtémoc, Ciudad de México.</td></tr>
+      <tr><th>Correo para asuntos de privacidad</th><td><a href="mailto:privacy@mindworksconsulting.com.mx">privacy@mindworksconsulting.com.mx</a></td></tr>
+    </table>
+  </section>
+
+  <section>
+    <h2><span class="num">2</span>Qué datos recabamos</h2>
+    <p>4Heavens está diseñada bajo el principio de mínima recolección: pedimos únicamente lo indispensable para generar tus lecturas astrológicas.</p>
+    <table class="ledger">
+      <tr>
+        <th>Datos de identificación</th>
+        <td>Correo electrónico, necesario para crear tu cuenta e iniciar sesión.</td>
+      </tr>
+      <tr>
+        <th>Datos para la lectura</th>
+        <td>Fecha de nacimiento y, de forma opcional, un nombre o apodo. Esto aplica tanto a tu propio perfil como a las personas que decidas registrar.</td>
+      </tr>
+      <tr>
+        <th>Datos técnicos</th>
+        <td>Un identificador cifrado del dispositivo, generado mediante una función de resumen criptográfico irreversible. Se usa exclusivamente para prevenir el uso abusivo de las lecturas gratuitas y no permite identificarte personalmente.</td>
+      </tr>
+      <tr>
+        <th>Datos de compra</th>
+        <td>Registro de si adquiriste el acceso premium. El cobro lo procesan Apple o Google; nosotros nunca recibimos ni almacenamos datos de tu tarjeta.</td>
+      </tr>
+      <tr>
+        <th>Diagnóstico técnico</th>
+        <td>Informes automáticos de errores, configurados para no incluir datos que te identifiquen.</td>
+      </tr>
+    </table>
+    <p><strong>No recabamos datos personales sensibles</strong> en términos del artículo 3, fracción VI de la Ley. Tampoco pedimos teléfono, domicilio, geolocalización, contactos, hora o lugar de nacimiento.</p>
+  </section>
+
+  <section>
+    <h2><span class="num">3</span>Para qué los usamos</h2>
+    <h3>Finalidades necesarias</h3>
+    <p>Sin estos tratamientos la aplicación no puede funcionar:</p>
+    <ul>
+      <li>Crear y administrar tu cuenta, y permitirte iniciar sesión.</li>
+      <li>Calcular tu correspondencia astrológica en las tradiciones occidental, hebrea y chino-tibetana, y generar la lectura correspondiente.</li>
+      <li>Guardar tus lecturas para que puedas consultarlas después, incluso sin conexión a internet.</li>
+      <li>Verificar y conservar tu acceso premium si lo adquieres.</li>
+      <li>Prevenir el uso fraudulento o abusivo del servicio.</li>
+      <li>Atender tus solicitudes de soporte y de derechos ARCO.</li>
+    </ul>
+    <h3>Finalidades adicionales</h3>
+    <p>Usamos informes de error para detectar fallas y mejorar la estabilidad de la aplicación. Puedes oponerte a esta finalidad escribiendo al correo indicado en la sección 1, sin que ello afecte tu acceso al servicio.</p>
+    <p>No usamos tus datos con fines de mercadotecnia, publicidad ni perfilamiento comercial, y <strong>no vendemos datos personales</strong>.</p>
+  </section>
+
+  <section>
+    <h2><span class="num">4</span>Datos de otras personas que registres</h2>
+    <p>La aplicación te permite registrar la fecha de nacimiento y el nombre de familiares o amistades para generar sus lecturas. Al hacerlo declaras contar con su consentimiento para proporcionarnos esos datos, y asumes la obligación de informarles sobre este aviso.</p>
+    <p>Puedes eliminar en cualquier momento a cualquier persona registrada desde la aplicación; al hacerlo, sus datos se borran de forma permanente de nuestros sistemas.</p>
+  </section>
+
+  <section>
+    <h2><span class="num">5</span>Con quién los compartimos</h2>
+    <p>No vendemos, rentamos ni comercializamos tus datos. Para operar el servicio recurrimos a proveedores tecnológicos que actúan como encargados y que pueden almacenar o procesar información fuera de México:</p>
+    <table class="ledger">
+      <tr><th>Supabase</th><td>Alojamiento de la base de datos y autenticación.</td></tr>
+      <tr><th>Anthropic</th><td>Generación del texto de las lecturas mediante inteligencia artificial, a partir de la fecha de nacimiento.</td></tr>
+      <tr><th>RevenueCat</th><td>Administración y validación de las compras dentro de la aplicación.</td></tr>
+      <tr><th>Apple y Google</th><td>Distribución de la aplicación y procesamiento de los pagos.</td></tr>
+      <tr><th>Sentry</th><td>Monitoreo de errores técnicos.</td></tr>
+    </table>
+    <p>Estas transferencias son necesarias para mantener y cumplir la relación jurídica entre tú y nosotros, por lo que conforme al artículo 36 de la Ley no requieren tu consentimiento adicional. También podríamos revelar información cuando una autoridad competente lo requiera conforme a derecho.</p>
+    <p><strong>Si no aceptas estas transferencias, no podremos prestarte el servicio</strong>, ya que sin ellas la aplicación no puede generar ni conservar tus lecturas. Al crear tu cuenta y continuar usando 4Heavens manifiestas que aceptas las transferencias descritas en esta sección.</p>
+  </section>
+
+  <section>
+    <h2><span class="num">6</span>Tus derechos ARCO</h2>
+    <p>Tienes derecho a conocer qué datos tuyos tenemos y para qué los usamos <strong>(acceso)</strong>, a pedir que corrijamos los que sean inexactos o incompletos <strong>(rectificación)</strong>, a solicitar que los eliminemos cuando consideres que no se requieren <strong>(cancelación)</strong> y a oponerte a su uso para fines específicos <strong>(oposición)</strong>.</p>
+    <p>Para ejercerlos, envía tu solicitud al correo indicado en la sección 1, o usa la sección <em>Mis derechos ARCO</em> dentro de la aplicación. Tu solicitud debe incluir:</p>
+    <ul>
+      <li>Tu nombre y un domicilio o cualquier otro medio para recibir la respuesta.</li>
+      <li>Los documentos que acrediten tu identidad o, en su caso, la de quien te represente.</li>
+      <li>Una descripción clara y precisa de los datos sobre los que ejerces el derecho, salvo que se trate del derecho de acceso.</li>
+      <li>Cuál de los cuatro derechos quieres ejercer, o bien qué es lo que solicitas.</li>
+      <li>Cualquier otro elemento que facilite localizar tus datos.</li>
+    </ul>
+    <p>Responderemos en un plazo máximo de veinte días hábiles y, de resultar procedente, la haremos efectiva dentro de los quince días hábiles siguientes. Estos plazos pueden ampliarse una sola vez por un periodo igual cuando las circunstancias del caso lo justifiquen; si ocurre, te lo informaremos.</p>
+    <p>Ejercer tus derechos ARCO es gratuito. Solo podríamos cobrarte los costos de reproducción o envío, si los hubiera.</p>
+    <p>También puedes <strong>revocar tu consentimiento</strong> en cualquier momento. La vía más directa es eliminar tu cuenta desde <em>Ajustes</em> en la aplicación: esa acción suprime de forma inmediata e irreversible tu correo, tus perfiles registrados y tu historial, en los términos de la sección 7, y conlleva la pérdida del acceso premium sin reembolso, conforme a los Términos de Uso.</p>
+  </section>
+
+  <section>
+    <h2><span class="num">7</span>Cuánto tiempo los conservamos</h2>
+    <p>Conservamos tus datos mientras tu cuenta esté activa.</p>
+    <p>Si decides eliminarla, la supresión es <strong>inmediata e irreversible</strong>: tu correo, los perfiles que hayas registrado y su historial se borran de nuestros sistemas en el momento en que confirmas la acción. No existe un periodo de gracia ni forma de recuperarlos después.</p>
+    <p>Sobreviven a esa eliminación únicamente dos cosas. La primera son los registros de compra que Apple, Google o RevenueCat deban conservar por obligaciones fiscales o contables propias, sobre los que no tenemos control. La segunda es un registro interno que deja constancia de que una cuenta fue eliminada y en qué fecha, sin conservar dato alguno que permita identificarte; lo mantenemos únicamente para acreditar que atendimos tu solicitud.</p>
+    <p>Los textos de las lecturas se guardan de forma anónima, asociados únicamente a una fecha de nacimiento y sin vínculo con tu identidad, para no repetir cálculos ya realizados. Estos textos no permiten identificarte y permanecen tras la eliminación de tu cuenta.</p>
+  </section>
+
+  <section>
+    <h2><span class="num">8</span>Cómo los protegemos</h2>
+    <p>Aplicamos medidas administrativas, técnicas y físicas razonables para proteger tus datos: cifrado en tránsito, políticas de seguridad a nivel de registro en la base de datos que impiden que una persona usuaria acceda a la información de otra, y almacenamiento de las credenciales de sesión en el módulo de seguridad del propio dispositivo.</p>
+    <p>Ningún sistema es completamente infalible. Si ocurriera una vulneración que afecte de forma significativa tus derechos, te lo comunicaremos conforme a lo previsto en la Ley.</p>
+  </section>
+
+  <section>
+    <h2><span class="num">9</span>Menores de edad</h2>
+    <p>4Heavens no está dirigida a menores de trece años y no recabamos deliberadamente sus datos. Si eres madre, padre o tutor y adviertes que un menor a tu cargo nos proporcionó información, escríbenos y la eliminaremos.</p>
+  </section>
+
+  <section>
+    <h2><span class="num">10</span>Cambios a este aviso</h2>
+    <p>Podemos actualizar este aviso para reflejar cambios en el servicio o en la legislación aplicable. La versión vigente estará siempre disponible en esta dirección y en la sección de privacidad de la aplicación; la fecha del encabezado indica cuándo se modificó por última vez. Si el cambio es sustancial, te lo notificaremos dentro de la aplicación.</p>
+  </section>
+
+  <section>
+    <h2><span class="num">11</span>Autoridad competente</h2>
+    <p>Si consideras que tu derecho a la protección de datos personales ha sido vulnerado, o si no recibes respuesta a tu solicitud, puedes presentar una solicitud de protección de datos ante la <strong>Secretaría Anticorrupción y Buen Gobierno</strong>, autoridad competente en la materia conforme a la Ley Federal de Protección de Datos Personales en Posesión de los Particulares publicada el 20 de marzo de 2025, que sustituyó al Instituto Nacional de Transparencia, Acceso a la Información y Protección de Datos Personales.</p>
+    <p>El plazo para presentarla es de quince días hábiles contados desde que se te comunique nuestra respuesta o, si no la recibes, desde que venza el plazo que teníamos para darla.</p>
+  </section>
+
+  <p class="colophon">4Heavens · Aviso de privacidad integral conforme a los artículos 15 y 16 de la Ley Federal de Protección de Datos Personales en Posesión de los Particulares.</p>
+
+</main>
+</body>
+</html>
